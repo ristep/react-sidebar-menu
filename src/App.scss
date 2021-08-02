@@ -28,11 +28,10 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.naviTop{
+  width:  100%;
+  height: auto;
+  justify-content: left;
+  background-color: red;
+  font-size: 32px;
 }

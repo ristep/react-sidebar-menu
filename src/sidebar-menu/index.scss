@@ -1,0 +1,46 @@
+.sidebar-toggle{
+  position: fixed;
+  left: 0px;
+  color: azure;
+}
+
+// .sidebar {
+//   height: 100%; /* 100% Full-height */
+//   width: 200px; /* 0 width - change this with JavaScript */
+//   position: fixed; /* Stay in place */
+//   z-index: 1; /* Stay on top */
+//   left: -200px;
+//   background-color: rgba(42, 159, 212, 0.65); /* Black*/
+//   color: aliceblue; /* White */;
+//   overflow-x: 0 ; /* Disable horizontal scroll */
+//   margin-top: 0px; /* Place content 60px from the top */
+//   transition: .5s; /* 0.5 second transition effect to slide in the sidenav */
+// }
+
+// .sidebar.visible{
+//   left: 0;
+//   transition: .5s;
+// }
+
+.sidebar-row {
+  width: 92%;
+  padding: 0.5em;
+  text-align: left;
+  height: auto;
+  vertical-align: middle;
+  &:hover{
+    background-color:#36A7E7;
+    color: white;
+    border-radius: 0.2em;
+    // box-shadow: 1px 2px 5px 1px rgba(0, 19, 0, 0.75);
+  }
+}
+
+.sidebar-icon{
+  padding: .5em;
+  color: rgba(57, 57, 160, 0.76);
+}
+
+.sidebar-title{
+  padding: .5em;
+}
